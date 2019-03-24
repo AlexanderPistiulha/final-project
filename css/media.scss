@@ -1,0 +1,119 @@
+@media (max-width: 968px) { 
+	.wrapper{
+        width: 750px;
+        
+        .header-one{
+            margin: 0 auto;
+            
+            
+        }
+       
+        .child-header-two-menu{
+            
+            width: 250px;
+            
+            >ul{
+                >li>a{
+                    font-size: 12px;                   
+                }
+            }
+        }
+        .child-header-two-logo{
+            >p{
+                font-size: 40px;
+                
+            }
+        }
+        .child-header-two-social{ 
+             width: 200px;
+            >.social{
+                display: flex;                    
+            }
+        }
+        .mainmenubtn {
+           display: none;
+        }
+
+    }
+    // -----------------------------------------------
+    .header-two{
+            height: 90px;   
+    }
+    .strip{
+        width: 0;
+        height: 0;
+    }
+    .slider{    
+        background-image: url(../img/unsplash.jpg);
+      }
+      .strip-content{
+         width: 0px;
+         >.left{
+            width:0;
+            height: 0;
+            background-image: none;
+           
+        }
+      >.center{
+            
+            width: 0;
+            height: 0;
+            position: none; 
+            background-image: none;         
+        }
+        >.right{
+           
+            width: 0;
+            height: 0;
+            background-image: none;
+        }
+        >div>.icon{
+            font-size: 0;
+            padding-right: 0;
+        }
+        >div>.content>h2{
+            font-size: 0;
+            font-weight: 0;
+        }
+        >div>.content>p{
+            font-size: 0;
+            font-weight: 0;        
+        }
+       
+    }
+    .items-container{
+        padding: 15px 40px 15px 60px;
+       }
+    .item{
+        
+        margin-right: 5px; 
+        margin-bottom: 5px; 
+    }
+    .footer{
+        height: 700px;
+        background: #141414;
+        padding-top:75px;
+        box-sizing: border-box;
+        font-weight: 400;
+        .footer-content{
+            display: flex;
+            justify-content: start;
+            padding-bottom: 100px;
+        }
+        .list{
+            box-sizing: border-box;
+            margin-right: 40px;
+        }
+    }
+          
+          
+
+
+   
+    
+            
+    
+
+    
+	
+}
